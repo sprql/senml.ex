@@ -29,7 +29,10 @@ defmodule SenML.MixProject do
 
   defp package do
     [
-      source_url: ""
+      description: "Lightweight implementation of RFC 8428 Sensor Measurement Lists (SenML)",
+      files: ~w(lib .formatter.exs mix.exs README* LICENSE*),
+      licenses: ["MIT"],
+      links: %{"GitHub" => "https://github.com/sprql/senml.ex"}
     ]
   end
 end
