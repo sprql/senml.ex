@@ -23,7 +23,8 @@ defmodule SenML.MixProject do
   defp deps do
     [
       {:jason, "~> 1.1"},
-      {:cortex, "~> 0.1", only: [:dev, :test]}
+      {:cortex, "~> 0.1", only: [:dev, :test]},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
