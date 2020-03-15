@@ -2,7 +2,7 @@ defmodule SenMLTest do
   use ExUnit.Case
   doctest SenML
 
-  test "greets the world" do
+  test "encode/decode" do
     json_string = ~s([
       {"bn":"urn:dev:ow:10e2073a0108006:","bt":1.276020076001e+09, "bu":"A","bver":5, "n":"voltage","u":"V","v":120.1},
       {"n":"current","t":-5,"v":1.2},
