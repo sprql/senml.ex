@@ -25,7 +25,8 @@ defmodule SenML.MixProject do
       {:jason, "~> 1.1"},
       {:cortex, "~> 0.1", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
-      {:credo, "~> 1.2", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.2", only: [:dev, :test], runtime: false},
+      {:benchee, "~> 1.0", only: :dev}
     ]
   end
 
