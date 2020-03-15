@@ -74,6 +74,11 @@ defmodule SenML do
     |> Jason.encode!()
   end
 
+  @spec normalize(list(%SenML{})) :: list(%SenML{})
+  def normalize(list) do
+    SenML.Normalizer.normalize(list)
+  end
+
   defp encode_senml(%SenML{} = senml) do
     %{}
     |> map_maybe_put("bn", senml.base_name)
