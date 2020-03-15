@@ -10,7 +10,7 @@ by adding `senml` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:senml, "~> 0.0.1"}
+    {:senml, "~> 0.0.2"}
   ]
 end
 ```
